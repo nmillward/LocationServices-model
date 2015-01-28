@@ -83,7 +83,6 @@ public class MapsActivity extends FragmentActivity implements LocationProvider.L
 
     }
 
-
     public void handleNewLocation(Location location) {
         Log.d(TAG, location.toString());
 
